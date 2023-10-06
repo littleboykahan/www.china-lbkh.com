@@ -1,62 +1,128 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
+        <style type="text/css">
+            li {
+                text-align: -webkit-match-parent;
+            }
+            a:link {color: #000000; text-decoration: none}
+            a:visited {color: #000000; text-decoration: none}
+        </style>
         <title>小男卡汉官方网</title>
         <meta name="keywords" content="小男卡汉,Flash,动画,视频,游戏,音乐,论坛,哔哩哔哩,bilibili">
         <meta name="description" content="小男卡汉官方网，就是这儿！"> 
         <meta charset="UTF-8">
-        <style type="text/css">
-            body {
-                background-color: #99e5ff;
-            }
-            .top {
-                height: 75px;
-                border-bottom: 1px solid #000000;
-            }
-            .main {
-                margin-block: 5px;
-            }
-            .left {
-                width: 25%;
-                border: 1px solid #000000;
-                float: left;
-            }
-            .right {
-                float: right;
-                width: 74%;
-                border: 1px solid #000000;
-            }
-            .bottom {
-                clear: both;
-                text-align: center;
-                height: 50px;
-                border-top: 1px solid #000000;
-            }
-        </style>
+        <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+        <link rel="stylesheet" href="top.css" type="text/css">
     </head>
-    <body>
+    <body style="background-image: url('image/background.png');">
         <div class="top">
-            <a href="index.html">
-                <img src="logo.png" width="200" height="60">
-            </a>
-        </div>
-        <div class="main">
-            <div class="left">
-                <a href="https://space.bilibili.com/3537106196499145">
-                    <img src="clickchannel.png" width="240" height="180">
-                </a>
+            <div style="height: 5px;">
             </div>
-            <div class="right">
-                <span>欢迎我的网站！</span>
+            <div>
+                <div style="float: left;">
+                    <img src="image/logo.png" style="position: absolute;left: 8px;" width="165" height="50">
+                    <div class="searchtools">
+                        <input type="text" class="searchtext" id="searchtext" maxlength="100" autocomplete="off">
+                        <input type="submit" value="搜索" id="seabut" class="seabut">
+                    </div>
+                </div>
+                <div style="position: relative;float: right;font-size: 25px;padding: 4px;" id="login">
+                    <a href="login/login.html">登录</a>
+                    <a href="login/register.html">注册</a>
+                </div>
+            </div>
+            <div style="height: 5px;">
+            </div>
+            <div style="position: absolute;bottom: -10px;z-index: 1;height: 38px;padding-left: 188px;">
+                <a href="https://www.china-lbkh.com">首页</a>
+                <a href="animation/animation.html">动画</a>
+                <a href="comic/comic.html">漫画</a>
+                <a href="game/game.html">游戏</a>
+                <a href="forum/forum.html">论坛</a>
+                <a href="tools/tools.html">工具</a>
+                <a href="test/test.html">测试</a>
+                <a href="fun/fun.html">娱乐</a>
+                <a href="download/download.html">下载</a>
+                <a href="music/music.html">音乐</a>
+                <a href="video/video.html">视频</a>
             </div>
         </div>
+        <div style="height: 80px">
+        </div>
+        <center>
+            <div style="width: 782px;background-color: #99e5ff;height: 800px;border: 1px solid #000000;border-radius: 5px;">
+                <div style="float: left;margin: 8px;padding: 4px;width: 230px;height: 775px;border: 1px solid #000000;border-radius: 5px;">
+                    <div style="width: 220px;height: 250px;border: 1px solid #000000;border-radius: 5px;">
+                        <span>公告栏</span>
+                        <div style="width: 200px;height: 224px;border: 1px solid #000000;border-radius: 5px;background-color: #5da1b9;">
+                            <span>2023年正式出现网站！</span>
+                        </div>
+                    </div>
+                    <div>点击这里！</div>
+                    <a href="https://space.bilibili.com/3537106196499145">
+                        <img style="border: 1px solid #000000;" src="image/clickchannel.png" width="192" height="144">
+                    </a>
+                </div>
+                <div style="height: 775px;float: right;padding: 4px;margin: 8px;width: 500px;border: 1px solid #000000;border-radius: 5px;;">
+                    <div style="margin: 8px;width: 480px;border: 1px solid #000000;border-radius: 5px;">
+                        <div align="left" style="margin: 8px;">游戏区：</div>
+                        <ul style="width: 452px;height: 120px;border: 1px solid #000000;background-color: #5da1b9;border-radius: 5px;margin: 8px;padding: 
+
+5px;">
+                            <li style="display: block;float: left;margin-left: 20px;">
+                                <a href="game/gamelist_1.html">
+                                    <img src="image/thumbnail/game/1.png"  style="border: 1px solid #000000;" width="120" height="90">
+                                </a>
+                                <span>
+                                    <a href="game/gamelist_1.html" style="width: 120px;display: block;">牛牛游戏</a>
+                                </span>
+                            </li>
+                            <li style="display: block;float: left;margin-left: 20px;">
+                                <a href="game/gamelist_2.html">
+                                    <img src="image/thumbnail/game/2.png" style="border: 1px solid #000000;" width="120" height="90">
+                                </a>
+                                <span>
+                                    <a href="game/gamelist_2.html" style="width: 120px;display: block;">动漫人游戏</a>
+                                </span>
+                            </li>
+                            <li style="display: block;float: left;margin-left: 20px;">
+                                <a href="game/gamelist_3.html">
+                                    <img src="image/thumbnail/game/3.png" style="border: 1px solid #000000;" width="120" height="90">
+                                </a>
+                                <span>
+                                    <a href="game/gamelist_3.html" style="width: 120px;display: block;">CoolBuddy</a>
+                                </span>
+                            </li>
+                        </ul>
+                        <div style="margin: 8px;">
+
+                            <a href="game/gamelist.html">更多More+</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 5px;">
+            </div>
+        </center>
         <div class="bottom">
-            <span>友情链接：</span>
-            <a href="http://www.niu-niu.com">牛牛游戏</a>
-            <a href="https://www.ywyj.cn">一网一匠</a>
-            <a href="https://www.bilibili.com">哔哩哔哩</a>
+            <center>
+                <span>友情链接：</span>
+                <a href="http://www.niu-niu.com">牛牛游戏</a>
+                <a href="https://www.bilibili.com">哔哩哔哩</a>
+                <a href="https://www.ywyj.cn">一网一匠</a>
+                <a href="https://www.youku.com">优酷</a>
+                <a href="http://www.51windows.net">无忧视窗</a>
+                <a href="https://www.midishow.com">MIDIShow</a>
+                <a href="https://www.douyin.com">抖音</a>
+                <a href="https://www.douban.com">豆瓣</a>
+                <a href="https://www.github.com">GitHub</a>
+            </center>
         </div>
-        <script type="text/javascript">
+        <script type="text/javascript" src="login.js">
+        </script>
+        <script type="text/javascript" src="search.js">
         </script>
     </body>
 </html>
